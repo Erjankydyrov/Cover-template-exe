@@ -4,21 +4,27 @@
 }
 body{
     height: 100%;
-    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-    background-color: #333;
+    background-color: #212529;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
     height: 100%;
 }
+.conteiner{
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+header nav{
+    padding-top: 20px;
+}
 header nav ul{
     display: flex;
     justify-content: center;
     align-items: baseline;
     padding: 0;
-    margin: 15px 0;
+    margin: 0;
 }
 header nav ul li{
     margin: 0 10px;
@@ -28,7 +34,27 @@ header nav ul li a{
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
     font-family: 'Roboto', sans-serif;
-    
+    padding: 8px 0px;    
+}
+header nav ul li .ahome{
+    border-bottom: 3px solid white;
+}
+header nav ul li .osta{
+    color: grey;
+}
+.prom{
+    margin-right: 325px;
+}
+.text-1{
+    font-weight: 500;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 1.75rem;
+}
+.prom-nav{
+    margin-left: 30px;
+    display: flex;
 }
