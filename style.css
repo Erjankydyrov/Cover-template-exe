@@ -50,6 +50,9 @@ header nav ul li a{
     font-family: 'Roboto', sans-serif;
     padding: 8px 0px;    
 }
+header nav ul li a:hover{
+    border-bottom: 3px solid grey;   
+}
 header nav ul li .ahome{
     border-bottom: 3px solid white;
 }
