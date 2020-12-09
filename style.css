@@ -53,6 +53,9 @@ header nav ul li a{
 header nav ul li a:hover{
     border-bottom: 3px solid grey;   
 }
+header nav ul li a:active{
+    border-bottom: 3px solid grey;   
+}
 header nav ul li .ahome{
     border-bottom: 3px solid white;
 }
