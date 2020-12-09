@@ -15,9 +15,16 @@ body{
     width: 100%;
     max-width: 650px;
     margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+header{
+    margin-bottom: auto;
 }
 header nav{
     padding-top: 20px;
+    margin-bottom: auto;
 }
 header nav ul{
     display: flex;
@@ -58,6 +65,9 @@ header nav ul li .osta{
     margin-left: 30px;
     display: flex;
 }
+main{
+    margin-top: auto;
+}
 .main-h1{
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -75,4 +85,18 @@ header nav ul li .osta{
     font-size: 1.25rem;
     color: white;
     text-align: center;
+}
+main .main-a{
+    text-align: center;
+    margin-top: 25px;
+}
+.a-button{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
